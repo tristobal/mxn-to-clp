@@ -45,7 +45,8 @@
                             <input type="number"
                                    step="0.01"
                                    ng-model="inputMxn"
-                                   ng-change="updateCLP(inputMxn)">
+                                   ng-change="updateCLP(inputMxn)"
+                                   class="input-lg">
                         </div>
                     </div>
                     <div class="row">
@@ -59,7 +60,7 @@
                 </form>
 
                 <button class="button button-full button-positive" ng-click="updateCurrency()">Actualizar</button>
-
+                <button class="button button-full button-positive" ng-click="saveSpend()">Guardar</button>
 
             </ion-content>
 
